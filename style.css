@@ -103,7 +103,7 @@ ol li::marker {
     font-weight: bold;
 }
 ol li p{
-    padding: 0.5rem;
+    padding:0 0.5rem;
 }
 .nutrition-div{
     display: flex;
@@ -129,4 +129,33 @@ ol li p{
     main{
         padding: 0;
     }
+    .recipe-box{
+        padding: 0rem;
+        gap: 1rem;
+    }
+    .recipe-box img{
+        border-radius: 0px;
+    }
+    .ingredients, .instructions, .nutrition-div, .first{
+        padding: 1rem;
+    }
+
+}
+@media screen and (max-width: 480px){
+    h1 {
+            font-size: 1.8rem;
+    }
+    
+    h1.small-heading {
+            font-size: 1.5rem;
+    }
+    
+    .prep h2 {
+            font-size: 1.2rem;
+    }
+    
+    p,li {
+            font-size: 0.95rem;
+    }
+    
 }
